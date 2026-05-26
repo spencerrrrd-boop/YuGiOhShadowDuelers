@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>YuGiOhShadowDuelers</AssemblyName>
+    <RootNamespace>YuGiOhShadowDuelers</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Sprites -->
+    <Content Include="Resources\sprites\*.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <!-- Backgrounds -->
+    <Content Include="Resources\backgrounds\*.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>
